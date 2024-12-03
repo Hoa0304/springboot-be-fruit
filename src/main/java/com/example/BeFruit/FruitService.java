@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class FruitService {
 
-    private final String FRUIT_API_URL = "http://localhost:3000";
+    private final String FRUIT_API_URL = "https://json-fruit.onrender.com";
 
     @Autowired
     private RestTemplate restTemplate;

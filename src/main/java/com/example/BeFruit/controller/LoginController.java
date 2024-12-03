@@ -14,9 +14,9 @@ import java.util.List;
 @RequestMapping("/api")
 public class LoginController {
 
-   @Autowired
-   private RestTemplate restTemplate;
-   private final String jsonServeUrl = "https://json-fruit.onrender.com";
+    @Autowired
+    private RestTemplate restTemplate;
+    private final String jsonServeUrl = "https://json-fruit.onrender.com";
 
     public LoginController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
@@ -30,9 +30,9 @@ public class LoginController {
         System.out.println(users.toString());
         for (User user1 : users) {
             if(user1.getEmail().equals(user.getEmail()) && user1.getPassword().equals(user.getPassword())) {
-            return new ResponseEntity<>("Login successfully!", HttpStatus.OK);
+                return new ResponseEntity<>("Login successfully!", HttpStatus.OK);
             }
         }
-            return new ResponseEntity<>("Email or password is incorrect!", HttpStatus.UNAUTHORIZED);
-        }
+        return new ResponseEntity<>("Email or password is incorrect!", HttpStatus.UNAUTHORIZED);
     }
+}
