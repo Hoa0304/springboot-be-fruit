@@ -1,0 +1,11 @@
+com\example\BeFruit\model\User.class
+com\example\BeFruit\model\Fruit.class
+com\example\BeFruit\FruitService$2.class
+com\example\BeFruit\FruitService.class
+com\example\BeFruit\AppConfig.class
+com\example\BeFruit\controller\FruitController.class
+com\example\BeFruit\controller\RegisterController.class
+com\example\BeFruit\FruitService$1.class
+com\example\BeFruit\BeFruitApplication.class
+com\example\BeFruit\controller\LoginController.class
+com\example\BeFruit\ApiConstants.class
