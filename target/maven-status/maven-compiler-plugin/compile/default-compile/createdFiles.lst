@@ -1,4 +1,5 @@
 com\example\BeFruit\model\User.class
+com\example\BeFruit\WebConfig.class
 com\example\BeFruit\model\Fruit.class
 com\example\BeFruit\FruitService$2.class
 com\example\BeFruit\FruitService.class
